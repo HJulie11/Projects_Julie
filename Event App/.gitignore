@@ -1,0 +1,9 @@
+.DS_Store
+bin
+build
+.gradle
+.idea
+.ignore
+scotland-latest.osm.pbf
+routing-graph-cache
+**/*.dat
