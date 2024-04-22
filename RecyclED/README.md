@@ -17,7 +17,8 @@ The modular design of the hardware model contributed to the scalability of the p
 
 **Website**
 
-<video src="../figs/website video.mov" controls="controls" width = "max"></video>
+<img src="../figs/Screenshot 2024-03-24 at 20.14.46.png" width = "400"/>
+<img src="../figs/Screenshot 2024-03-24 at 20.18.54.png" width = "400"/>
 
 **How to run web dev**
 
