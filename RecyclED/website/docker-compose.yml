@@ -1,0 +1,25 @@
+version: '3'
+
+services:  
+  model:
+    container_name: model
+    build: model
+    ports:
+      - "5005:5005"
+
+  backend:
+    container_name: backend
+    build: flask-backend
+    command: sh -c "python main.py"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - model
+
+  client:
+    container_name: client
+    build: front-end
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend

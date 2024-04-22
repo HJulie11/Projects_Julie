@@ -1,0 +1,7 @@
+0 Food Waste
+1 Writing Utensil
+2 Paper
+3 Cardboard
+4 Plastic
+5 Glass
+6 Metal

@@ -1,0 +1,63 @@
+name: Flask CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 
+
+      - name: Create virtual environment
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r flask-backend/requirements.txt
+
+      - name: Print debugging information
+        run: |
+          echo "Python Version: $(python --version)"
+          echo "Working Directory: $(pwd)"
+          echo "Contents of Working Directory: $(ls -l)"
+          echo "Contents of site-packages: $(ls -l venv/lib/python*/site-packages)"
+
+      - name: Run tests
+        run: pytest flask-backend/tests/unit  
+        
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout Code
+      - uses: actions/checkout@v2
+
+      - name: Execute SSH to deploy
+        uses: appleboy/ssh-action@master
+        with: 
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          script: |
+            git pull git@github.com:SDP-RECYCLED/webapp-with-backend.git
+            cd webapp-with-backend
+            sudo systemctl start docker
+            sudo systemctl enable docker
+            sudo docker-compose down -v
+            sudo docker-compose up -d --build
+          
+      
+    
