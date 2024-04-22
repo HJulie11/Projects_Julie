@@ -18,3 +18,42 @@ The modular design of the hardware model contributed to the scalability of the p
 **Website**
 
 <video src="../figs/website video.mov" controls="controls" width = "max"></video>
+
+**How to run web dev**
+
+1. Run frontend dev first
+
+    Go to '/front-end' folder
+    ```
+    cd /path/to/front-end
+    ```
+
+    run npm commands
+    ```
+    npm install
+    ```
+    ```
+    npm run dev
+    ```
+
+2. Run backend server
+
+    Go to '/flask-backend' folder
+    ```
+    cd /path/to/flask-backend
+    ```
+
+    Follow the commands below in order:
+    ```
+    python3 -m venv env
+    ```
+    ```
+    source env/bin/activate
+    ```
+    (env) from here
+    ```
+    pip3 install -r requirements.txt
+    ```
+    ```
+    python3 main.py
+    ```
