@@ -1,0 +1,59 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+  
+.toggle-button {
+    padding: 10px 20px;
+    background-color: #eee; /* Adjust background color as needed */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px 5px 0 0; /* Rounded top corners */
+}
+  
+.toggle-button.selected {
+    background-color: #ccc; /* Adjust selected background color */
+    color: white;
+}
+  
+.slider {
+    width: calc(50% - 20px);
+    height: 5px; /* Adjust slider height for thin line */
+    background-color: #bbb;
+    position: absolute;
+    bottom: 0; /* Position at bottom */
+    transition: left 0.3s ease;
+}
+  
+  .toggle-button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .toggle-button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .toggle-button + .toggle-button {
+    margin-left: -5px;
+  }
+  
+  .toggle-button + .toggle-button.selected {
+    margin-left: -5px;
+  }
+  
+  .toggle-button.selected + .toggle-button {
+    margin-left: 0;
+  }
+  
+  .toggle-button + .toggle-button.selected + .slider {
+    left: 50%;
+  }
+  
+  .toggle-button.selected + .toggle-button + .slider {
+    left: 0;
+  }

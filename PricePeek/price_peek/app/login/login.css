@@ -1,0 +1,25 @@
+.input-field {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFF5E6;
+    color: #BC431E;
+}
+  
+.input-field::placeholder {
+    color: #BC431E;
+}
+  
+.input-field:focus {
+    outline: none;
+}
+  
+.input-field[type='password'] {
+    font-family: SNPro;
+}
+  
+@media screen and (min-width: 768px) {
+    .login-form {
+      max-width: 600px;
+    }
+}
