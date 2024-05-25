@@ -6,12 +6,13 @@ Project requirement:
 * Functional and non-functional requirement considered are written in '**Project report.pdf**'.
 * Use Restful API 
 
-**Language Used:** Java
+**Language Used:** Java, RESTful API
 
 Project Approach (Implementation):
 * A*(A-star) algorithm
 * The algorithm enables finding the optimal path with the least cost
 * It uses heuristics to visit fewer nodes.
 * LngLat class is defined to be used as node that the algorithm can explore.
+* Use RESTful API to thrive data from
 * More detail on implementation is described in '**Project report.pdf**'.
 
