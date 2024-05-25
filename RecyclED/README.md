@@ -32,10 +32,6 @@ Product Model (3D modelled using Shapr3D)
 <img src="../figs/Screenshot 2024-03-24 at 20.18.54.png" width = "400"/>
 
 
-<video src="../figs/website video.mov" controls="controls" width = "max"></video>
-
-
-
 https://github.com/HJulie11/Projects_Julie/assets/115992979/7294eaa0-025d-4d8c-a440-572f296df9b6
 
 
@@ -80,8 +76,9 @@ https://github.com/HJulie11/Projects_Julie/assets/115992979/7294eaa0-025d-4d8c-a
     ```
 **Demo Model**
 
+https://github.com/HJulie11/Projects_Julie/assets/115992979/fbaecb81-1b78-442f-aa63-90376f3073fb
 
-<video src="../figs/Demo Model.MOV" controls="controls" width = "max"></video>
+
 
 **Project details**
 * Group of 8 people
