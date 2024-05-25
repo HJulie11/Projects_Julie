@@ -27,8 +27,10 @@ Product Model (3D modelled using Shapr3D)
 
 
 **Website**
+
 <img src="../figs/Screenshot 2024-03-24 at 20.14.46.png" width = "400"/>
 <img src="../figs/Screenshot 2024-03-24 at 20.18.54.png" width = "400"/>
+
 
 <video src="../figs/website video.mov" controls="controls" width = "max"></video>
 
@@ -71,6 +73,7 @@ Product Model (3D modelled using Shapr3D)
     python3 main.py
     ```
 **Demo Model**
+
 
 <video src="../figs/Demo Model.MOV" controls="controls" width = "max"></video>
 
