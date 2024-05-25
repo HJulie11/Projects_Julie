@@ -6,19 +6,31 @@ The project has an AI model trained with 1000 specific images of the most common
 
 The modular design of the hardware model contributed to the scalability of the product, which implies that the users can use their own bins. 
 
+Product Model (3D modelled using Shapr3D)
+
+* Overall look of the product
 <img src="../figs/product_last draft.png" width="350" />
+
+* Detail (modular) view of the product
 <img src="../figs/product modular.png" width="350" />
+    
+    * Cart moving along the platform on top of bins placed.
+    * Bins can be easily removed and put back in.
 
 
 **Logo**
-
+* White text version
 <img src="../figs/RecylED_logo_wh.png" width="400"/>
+
+* Black text verison
+<img src="../figs/RecylED_logo_BL.png" width="400"/>
 
 
 **Website**
-
 <img src="../figs/Screenshot 2024-03-24 at 20.14.46.png" width = "400"/>
 <img src="../figs/Screenshot 2024-03-24 at 20.18.54.png" width = "400"/>
+
+<video src="../figs/website video.mov" controls="controls" width = "max"></video>
 
 **How to run web dev**
 
