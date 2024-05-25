@@ -34,6 +34,12 @@ Product Model (3D modelled using Shapr3D)
 
 <video src="../figs/website video.mov" controls="controls" width = "max"></video>
 
+
+
+https://github.com/HJulie11/Projects_Julie/assets/115992979/7294eaa0-025d-4d8c-a440-572f296df9b6
+
+
+
 **How to run web dev**
 
 1. Run frontend dev first
