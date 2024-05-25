@@ -57,3 +57,22 @@ The modular design of the hardware model contributed to the scalability of the p
     ```
     python3 main.py
     ```
+**Demo Model**
+
+<video src="../figs/Demo Model.MOV" controls="controls" width = "max"></video>
+
+**Project details**
+* Group of 8 people
+* 4 in Software Team; other 4 in Hardware Team
+* **My Main Contribution**: Project Manager, Web application Front-end Design and Development
+* **Implementation**:
+    * Web Application:
+        * Next.js and TailwindCSS (Frontend)
+        * Python Flask (Backend)
+    * Hardware:
+        * 3D Printed and Laser cut parts put together for cabinet (bin) and cart (moving inside the bin)
+        * Cart Machanism:
+            * A cart with camera mounted, detect motion (putting a trash into the bin) and move to the correct bin (recycling or general)
+        * Raspberry Pi and Arduino for cart motor/movement scripting
+
+* More details are written in Project report
