@@ -1,4 +1,4 @@
-# Projects
+# Projects outline
 * Drone-based Pizza Delivery Service
 * Event Management Application
 * Movie Trends Data Analysis
