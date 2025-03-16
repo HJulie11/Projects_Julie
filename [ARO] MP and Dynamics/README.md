@@ -2,6 +2,7 @@
 
 The project was proposed to experiment and develop motion planning and dynamics controlling computational framework for a robot manipulation (grabing cube)
 The project is using python language with dependencies - NumPy and Pinocchio.
+Simulation using Meshcat for trajectory experiment and Pybullet for physics application and dynamics control.
 
 Files with the main implementations on motion planning approach and torque controller (dynamics) are:
 * inverse_geometry.py
