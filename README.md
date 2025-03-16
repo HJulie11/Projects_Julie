@@ -1,4 +1,4 @@
-# Projects_Julie
+# Projects
 * Drone-based Pizza Delivery Service
 * Event Management Application
 * Movie Trends Data Analysis
